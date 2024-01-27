@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "gitpage": "ng build --output-path docs --base-href && echo \"neoart.dev\" > docs/CNAME\n"
   },
   "private": true,
   "dependencies": {
